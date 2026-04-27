@@ -1,8 +1,0 @@
-0.7
-2020.2
-Nov  8 2024
-22:36:55
-/home/appletea/workspace_onedevice_2/fpga/RTL_Design/RTL_Design.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
-/home/appletea/workspace_onedevice_2/fpga/RTL_Design/RTL_Design.srcs/sim_1/new/tb_memory.v,1775455136,verilog,,,,tb_memory,,,,,,,,
-/home/appletea/workspace_onedevice_2/fpga/RTL_Design/RTL_Design.srcs/sources_1/new/combinational_logic.v,1775461391,verilog,,,,bin_to_dec;combinational_logic;comparator;decoder_2_4;demux_1_4;encoder_4_2;fadder_4bit_dataflow;fadder_4bit_structural;full_adder_behavioral;full_adder_dataflow;full_adder_structural;half_adder_behavioral;half_adder_dataflow;half_adder_structural;mux_2_1;mux_4_1;mux_8_1;seg_decoder,,,,,,,,
-/home/appletea/workspace_onedevice_2/fpga/RTL_Design/RTL_Design.srcs/sources_1/new/sequential_logic.v,1777250275,verilog,,/home/appletea/workspace_onedevice_2/fpga/RTL_Design/RTL_Design.srcs/sim_1/new/tb_memory.v,,D_flip_flop_n;D_flip_flop_p;PISO;SIPO;SISO;T_flip_flop_n;T_flip_flop_p;down_counter_asyc;down_counter_n;down_counter_p;edge_detector_n;edge_detector_p;memory;memory_one_addr_bus;ring_counter;ring_counter_led;ring_counter_led_flag;up_counter_asyc;up_counter_p,,,,,,,,
