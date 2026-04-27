@@ -33,10 +33,15 @@ module D_flip_flop_n(
 
 endmodule
 
+// clock 0 d = 1 en=1 q =0
+// clock 1 d = 1 en =1 q = 1
+// clock 2 d = 0 en = 0 q = 1
+// clock 3 d = 0 en = 0 q = 0
 module D_flip_flop_p(
     input d, 
     input clk, reset_p, en,
     output reg q);
+ 
     
     always @(posedge clk)begin
         if(reset_p)q = 0;

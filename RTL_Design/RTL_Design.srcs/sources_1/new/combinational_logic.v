@@ -62,6 +62,8 @@ module half_adder_behavioral(
     end
 
 endmodule
+// A =1 B = 1 sum value = 2 10
+// sum 0 carry 1
 
 module half_adder_dataflow(
     input A, B,

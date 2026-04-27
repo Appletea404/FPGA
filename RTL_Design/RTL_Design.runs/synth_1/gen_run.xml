@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774424476" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/watch.dcp">
-  <File Type="RDS-DCP" Name="watch_fnd.dcp"/>
-  <File Type="RDS-RDS" Name="watch_fnd.vds"/>
-  <File Type="REPORTS-TCL" Name="watch_fnd_reports.tcl"/>
-  <File Type="PA-TCL" Name="watch_fnd.tcl"/>
-  <File Type="RDS-UTIL" Name="watch_fnd_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="watch_fnd_utilization_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777254147" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/watch.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="full_adder_dataflow_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="full_adder_dataflow.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="full_adder_dataflow_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="full_adder_dataflow_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="full_adder_dataflow_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="full_adder_dataflow.vds"/>
+  <File Type="REPORTS-TCL" Name="full_adder_dataflow_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="full_adder_dataflow_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="full_adder_dataflow.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/combinational_logic.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/exam_module.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -30,9 +26,33 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/pwm_led.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/watch_min_sec.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/exam_module.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="watch_fnd"/>
+      <Option Name="TopModule" Val="full_adder_dataflow"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
