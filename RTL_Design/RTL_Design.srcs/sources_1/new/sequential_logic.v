@@ -72,7 +72,7 @@ module T_flip_flop_p(
         end
         else if(en & t) begin
             q = ~q;
-            qbar = ~q;
+            qbar = ~qbar;
         end
     end
 endmodule
